@@ -35,7 +35,7 @@ compatible) http://docs.python.org/2/library/socketserver.html
 -----------------------------------------------------------------  
    
 **Hypertext Transfer Protocol Status Code Definitions -- HTTP/1.1**   
-URL: http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html
+URL: http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html  
 
-**HTTP 1.1 Servers**
-URL: http://www.jmarshall.com/easy/http/#http1.1servers
+**HTTP 1.1 Servers**  
+URL: http://www.jmarshall.com/easy/http/#http1.1servers  

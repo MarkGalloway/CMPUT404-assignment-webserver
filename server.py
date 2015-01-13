@@ -5,7 +5,7 @@ import email.utils
 class MyWebServer(SocketServer.BaseRequestHandler):
 	
 	web_root = 'www'
-	implemented_methods = ['GET', 'HEAD']
+	implemented_methods = ['GET']
 	
 	# Potential response statuses
 	status = {
@@ -58,8 +58,6 @@ Content-Type: {mimetype}\r\n""".format(**locals())
 	def getResponse(self):
 		method, uri, version = self.data.split()[:3]
 		path = self.getPath(uri)
-		
-		print("%s" % path)
 
 		rfc_date = email.utils.formatdate(timeval=None, localtime=False, usegmt=True)
 		code = self.getStatusCode(method, path)

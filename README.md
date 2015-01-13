@@ -1,9 +1,9 @@
 ### TODO
 -----------------------------------------------------------------  
 X - Pass Unit Tests  
-X - Test on Chrome
-X - Test on Firefox
-_ - Test on Lab Machines
+X - Test on Chrome  
+X - Test on Firefox  
+_ - Test on Lab Machines  
   
 According to http://www.jmarshall.com/easy/http/#http1.1servers a HTTP 1.1 complient server needs:  
 _ - require the Host: header from HTTP 1.1 clients  

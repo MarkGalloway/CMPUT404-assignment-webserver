@@ -1,23 +1,3 @@
-### TODO
------------------------------------------------------------------  
-X - Pass Unit Tests  
-X - Test on Chrome  
-X - Test on Firefox  
-_ - Test on Lab Machines  
-  
-According to http://www.jmarshall.com/easy/http/#http1.1servers a HTTP 1.1 complient server needs:  
-_ - require the Host: header from HTTP 1.1 clients  
-_ - accept absolute URL's in a request  
-_ - accept requests with chunked data  
-_ - either support persistent connections, or include the "Connection: close" header with each response  
-_ - use the "100 Continue" response appropriately  
-X - include the Date: header in each response  
-_ - handle requests with If-Modified-Since: or If-Unmodified-Since: headers  
-_ - support at least the GET and HEAD methods  
-_ - support HTTP 1.0 requests  
-
-
-
 ### Contributors / Licensing
 -----------------------------------------------------------------  
 

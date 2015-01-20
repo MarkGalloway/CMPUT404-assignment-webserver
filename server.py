@@ -25,7 +25,6 @@ import email.utils
 
 class MyWebServer(SocketServer.BaseRequestHandler):
 
-    web_root = 'www'
     implemented_methods = ['GET']
 
     # Potential response statuses
